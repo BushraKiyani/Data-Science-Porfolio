@@ -281,22 +281,5 @@ for i, f in enumerate(flat_data[1:]):
 full.shape
 
 
-# # Adding in values
-# Now that we have our full DataFrame, we have almost all the information we’ll need to do our analysis. There are a few missing pieces, though. We may want to correlate the Advanced Placement exam results with SAT scores, but we’ll need to first convert those columns to numbers, then fill in any missing values:
-
-# In[124]:
-
-
-cols = ['AP Test Takers ', 'Total Exams Taken', 'Number of Exams with scores 3 4 or 5']
-full[cols] = full[cols].fillna(value=0)
-for col in cols:
-    full[col] = data[f.replace(".csv", "")] = d
-    full[col] = pandas.to_numeric(full[col])
-full = full.fillna(full.mean())
-
-
-# In[ ]:
-
-
 
 
