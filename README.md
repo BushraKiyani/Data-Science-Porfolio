@@ -1,2 +1,2 @@
 # Data-Science-Porfolio
-This is my first file on GitHub
+A repository of projects I am working on.
